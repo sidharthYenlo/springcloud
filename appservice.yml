@@ -1,5 +1,5 @@
 configuration:
-  projectName: app-service
+  projectName: appservice
 server:
   port: 8081
 logging:
