@@ -1,0 +1,14 @@
+configuration:
+  projectName: app-service
+server:
+  port: 8080
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG
+---
+spring:
+  profiles: development
+server:
+  port: 9000
